@@ -15,7 +15,7 @@ public class DataParser extends AbstractParser {
             throw new DataReaderException("Incorrect data in file. Data: " + data);
         }
 
-        String[] parameters = entityData[1].split(";");
+        String[] parameters = entityData[1].split(",");
 
         ParsingDataStruct parsingData = new ParsingDataStruct(entityData[0], parameters);
 
