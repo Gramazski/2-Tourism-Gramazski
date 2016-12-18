@@ -3,7 +3,7 @@ package com.gramazski.tourism.entity;
 import com.gramazski.tourism.attribute.base.Country;
 import com.gramazski.tourism.attribute.base.Season;
 import com.gramazski.tourism.attribute.base.Transport;
-import com.gramazski.tourism.attribute.recovery.Meal;
+import com.gramazski.tourism.attribute.base.Meal;
 
 /**
  * Created by gs on 18.12.2016.

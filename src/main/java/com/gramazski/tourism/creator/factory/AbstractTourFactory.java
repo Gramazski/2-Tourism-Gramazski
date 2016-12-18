@@ -3,7 +3,7 @@ package com.gramazski.tourism.creator.factory;
 import com.gramazski.tourism.attribute.base.Country;
 import com.gramazski.tourism.attribute.base.Season;
 import com.gramazski.tourism.attribute.base.Transport;
-import com.gramazski.tourism.attribute.recovery.Meal;
+import com.gramazski.tourism.attribute.base.Meal;
 import com.gramazski.tourism.entity.Tour;
 import com.gramazski.tourism.exception.CreatingTourException;
 
