@@ -12,8 +12,8 @@ public abstract class AbstractEntertainmentTourFactory extends AbstractTourFacto
 
     protected void setTourParameters(EntertainmentTour tour, String[] parameters){
         super.setTourParameters(tour, parameters);
-        tour.setTravelExpenses(Integer.parseInt(parameters[5]));
-        tour.setTourForm(TourForm.valueOf(parameters[6]));
-        tour.setTourType(TourType.valueOf(parameters[7]));
+        tour.setTravelExpenses(Integer.parseInt(parameters[6]));
+        tour.setTourForm(TourForm.valueOf(parameters[7]));
+        tour.setTourType(TourType.valueOf(parameters[8]));
     }
 }

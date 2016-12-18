@@ -3,6 +3,7 @@ package com.gramazski.tourism.entity;
 import com.gramazski.tourism.attribute.base.Country;
 import com.gramazski.tourism.attribute.base.Season;
 import com.gramazski.tourism.attribute.base.Transport;
+import com.gramazski.tourism.attribute.recovery.Meal;
 
 /**
  * Created by gs on 18.12.2016.
@@ -13,6 +14,15 @@ public abstract class Tour {
     private Transport transport;
     private int price;
     private int duration;
+    private Meal meal;
+
+    public Meal getMeal() {
+        return meal;
+    }
+
+    public void setMeal(Meal meal) {
+        this.meal = meal;
+    }
 
     public Country getCountry() {
         return country;

@@ -1,22 +1,23 @@
-package com.gramazski.tourism.creator.factory.entertainment.cruise;
+package com.gramazski.tourism.creator.factory.entertainment.sightseeing;
 
-import com.gramazski.tourism.attribute.entertainment.cruise.Apartments;
-import com.gramazski.tourism.attribute.entertainment.cruise.Ship;
+import com.gramazski.tourism.attribute.recovery.Place;
 import com.gramazski.tourism.creator.factory.entertainment.AbstractEntertainmentTourFactory;
 import com.gramazski.tourism.entity.Tour;
-import com.gramazski.tourism.entity.entertainment.cruise.CruiseTour;
+import com.gramazski.tourism.entity.entertainment.sightseeing.SightSeeingTour;
 import com.gramazski.tourism.exception.CreatingTourException;
 
-
-public class CruiseTourFactory extends AbstractEntertainmentTourFactory {
+/**
+ * Created by gs on 18.12.2016.
+ */
+public class SightSeeingTourFactory extends AbstractEntertainmentTourFactory {
     public Tour getTour(String[] parsingData) throws CreatingTourException {
-        CruiseTour cruiseTour = new CruiseTour();
+        SightSeeingTour sightSeeingTour = new SightSeeingTour();
         try {
-            setCruiseTourParameters(cruiseTour, parsingData);
+            setSightSeeingTourParameters(sightSeeingTour, parsingData);
         }
         catch (ArrayIndexOutOfBoundsException ex){
             throw new CreatingTourException("Cruise tour creating failed. Course: invalid parameters count - " + parsingData.length +
-            ". Needed - 10");
+                    ". Needed - 10");
         }
         catch (NumberFormatException ex){
             throw new CreatingTourException("Cruise tour creating failed. Converting data failed. Course: " + ex.getMessage());
@@ -25,12 +26,12 @@ public class CruiseTourFactory extends AbstractEntertainmentTourFactory {
             throw new CreatingTourException("Cruise tour creating failed. Converting data failed. Course: " + ex.getMessage());
         }
 
-        return cruiseTour;
+        return sightSeeingTour;
     }
 
-    private void setCruiseTourParameters(CruiseTour tour, String[] parameters){
+    private void setSightSeeingTourParameters(SightSeeingTour tour, String[] parameters){
         super.setTourParameters(tour, parameters);
-        tour.setShip(Ship.valueOf(parameters[9]));
-        tour.setApartments(Apartments.valueOf(parameters[10]));
+        tour.setSight(parameters[9]);
+        tour.setPlace(Place.valueOf(parameters[10]));
     }
 }
