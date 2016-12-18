@@ -4,6 +4,7 @@ import com.gramazski.tourism.creator.factory.AbstractTourFactory;
 import com.gramazski.tourism.creator.key.EntityName;
 
 import java.lang.reflect.Modifier;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -13,7 +14,10 @@ import java.util.Map;
 public class FactoriesStorage {
     private Map<EntityName, AbstractTourFactory> factoryMap;
 
-    private FactoriesStorage(){}
+    private FactoriesStorage(){
+        factoryMap = new HashMap<EntityName, AbstractTourFactory>();
+        //factoryMap.put(EntityName.CRUISE, new CruiseTourFactory());
+    }
 
     private static class SingletonHelper{
         private static final FactoriesStorage INSTANCE = new FactoriesStorage();
