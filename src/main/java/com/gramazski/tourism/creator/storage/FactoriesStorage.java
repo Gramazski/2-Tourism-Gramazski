@@ -9,6 +9,7 @@ import java.util.Map;
 /**
  * Created by gs on 18.12.2016.
  */
+
 public class FactoriesStorage {
     private Map<EntityName, AbstractTourFactory> factoryMap;
 

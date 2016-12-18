@@ -1,10 +1,5 @@
 package com.gramazski.tourism.entity.recovery.recreation;
 
-import com.gramazski.tourism.attribute.base.Country;
-import com.gramazski.tourism.attribute.base.Season;
-import com.gramazski.tourism.attribute.base.Transport;
-import com.gramazski.tourism.attribute.recovery.Meal;
-import com.gramazski.tourism.attribute.recovery.Place;
 import com.gramazski.tourism.attribute.recovery.recreation.Hotel;
 import com.gramazski.tourism.attribute.recovery.recreation.RestPlace;
 import com.gramazski.tourism.entity.recovery.RecoveryTour;
@@ -15,11 +10,6 @@ import com.gramazski.tourism.entity.recovery.RecoveryTour;
 public class RecreationTour extends RecoveryTour {
     private Hotel hotel;
     private RestPlace restPlace;
-
-    public RecreationTour(Country country, Season season, Transport transport, int price,
-                          int duration, Place placeOfStay, Meal meal, Hotel hotel, RestPlace restPlace) {
-        super(country, season, transport, price, duration, placeOfStay, meal);
-    }
 
     public Hotel getHotel() {
         return hotel;

@@ -14,14 +14,6 @@ public abstract class Tour {
     private int price;
     private int duration;
 
-    public Tour(Country country, Season season, Transport transport, int price, int duration){
-        this.country = country;
-        this.duration = duration;
-        this.price = price;
-        this.season = season;
-        this.transport = transport;
-    }
-
     public Country getCountry() {
         return country;
     }
