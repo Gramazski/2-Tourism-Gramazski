@@ -2,7 +2,11 @@ package com.gramazski.tourism.action;
 
 import com.gramazski.tourism.attribute.base.Country;
 import com.gramazski.tourism.attribute.base.Meal;
+import com.gramazski.tourism.attribute.base.Transport;
 import com.gramazski.tourism.entity.Tour;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -10,6 +14,8 @@ import java.util.ArrayList;
  * Created by gs on 19.12.2016.
  */
 public class TourSearcher {
+    final static Logger logger = LogManager.getLogger(TourSearcher.class);
+
     public ArrayList<Tour> findTourByCountry(ArrayList<Tour> tours, Country country){
         ArrayList<Tour> searchedTours = new ArrayList<Tour>();
 
@@ -18,6 +24,8 @@ public class TourSearcher {
                 searchedTours.add(tour);
             }
         }
+
+        logger.log(Level.INFO, "Tours found. Count: " + searchedTours.size() + ". By country: " + country);
 
         return searchedTours;
     }
@@ -31,6 +39,8 @@ public class TourSearcher {
             }
         }
 
+        logger.log(Level.INFO, "Tours found. Count: " + searchedTours.size() + ". By limits: " + leftLimit + " - " + rightLimit + ".");
+
         return searchedTours;
     }
 
@@ -42,6 +52,22 @@ public class TourSearcher {
                 searchedTours.add(tour);
             }
         }
+
+        logger.log(Level.INFO, "Tours found. Count: " + searchedTours.size() + ". By meal: " + meal);
+
+        return searchedTours;
+    }
+
+    public ArrayList<Tour> findTourByTransport(ArrayList<Tour> tours, Transport transport){
+        ArrayList<Tour> searchedTours = new ArrayList<Tour>();
+
+        for (Tour tour : tours) {
+            if (tour.getTransport().equals(transport)){
+                searchedTours.add(tour);
+            }
+        }
+
+        logger.log(Level.INFO, "Tours found. Count: " + searchedTours.size() + ". By transport: " + transport);
 
         return searchedTours;
     }

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52930d08-417a-49a1-9de6-cfbd97ea49a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/factory/cruise.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/factory/recreationMulti.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" afterPath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java" />
     </list>
     <ignored path="SecondProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,13 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecreationTourFactoryTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecreationTourFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
               <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
               <folding>
                 <element signature="e#1052#1068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TourSearcher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="69" column="109" selection-start-line="69" selection-start-column="109" selection-end-line="69" selection-end-column="109" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,25 +75,6 @@
             <state relative-caret-position="153">
               <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TourSearcherTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/action/TourSearcherTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#930#936#0" expanded="true" />
-                <element signature="e#1609#1615#0" expanded="true" />
-                <element signature="method#findTourByDurationWithinLimits4_11#0;class#TourSearcherTest#0" expanded="false" />
-                <element signature="e#2607#2613#0" expanded="true" />
-                <element signature="e#3291#3297#0" expanded="true" />
-                <element signature="e#4284#4290#0" expanded="true" />
-                <element signature="e#4958#4964#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,7 +181,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/base/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/recreationMulti.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/comparator/sortedByCountryTourList.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/comparator/price/TourPriceComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/comparator/complex/TourPriceDurationComparatorTest.java" />
@@ -210,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/factory/wrong/multiDataWithWrongSeparator.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java" />
       </list>
     </option>
   </component>
@@ -2305,7 +2294,7 @@
       <updated>1482066118993</updated>
       <workItem from="1482066125251" duration="6368000" />
       <workItem from="1482073555325" duration="872000" />
-      <workItem from="1482157485614" duration="7050000" />
+      <workItem from="1482157485614" duration="7528000" />
     </task>
     <task id="LOCAL-00001" summary="Factory composite on 3 layers in accordance with entity layers. Test for cruise factory added. Tour comparators for price, duration, country, price-&gt;duration and price-&gt;duration-&gt;country added.">
       <created>1482069977601</created>
@@ -2342,7 +2331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482162178829</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tests updated, tests with wrong data added. Files for tests added.">
+      <created>1482164662817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1482164662817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -2378,7 +2374,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14290000" />
+    <option name="totallyTimeSpent" value="14768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
@@ -2446,7 +2442,8 @@
     <MESSAGE value="Factory test added." />
     <MESSAGE value="Factory storage added." />
     <MESSAGE value="Comparator tests added. Searcher tests added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Comparator tests added. Searcher tests added." />
+    <MESSAGE value="Tests updated, tests with wrong data added. Files for tests added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests updated, tests with wrong data added. Files for tests added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2744,14 +2741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test/action/tourListForEgypt.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2895,6 +2884,16 @@
           <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
           <folding>
             <element signature="e#1052#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="69" column="109" selection-start-line="69" selection-start-column="109" selection-end-line="69" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
