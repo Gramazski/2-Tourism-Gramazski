@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52930d08-417a-49a1-9de6-cfbd97ea49a9" name="Default" comment="Factory storage added.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/base/Meal.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/cruise.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/recreationMulti.txt" afterPath="" />
+    <list default="true" id="52930d08-417a-49a1-9de6-cfbd97ea49a9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/factory/cruise.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/test/factory/recreationMulti.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" afterPath="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" />
     </list>
@@ -29,21 +29,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tourList.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/comparator/tourList.txt">
+      <file leaf-file-name="RecreationTourFactoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
+              <folding>
+                <element signature="e#1052#1068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recreationMulti.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/right/recreationMulti.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="69" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TourSearcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java">
+      <file leaf-file-name="multiDataWithWrongSeparator.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/wrong/multiDataWithWrongSeparator.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiDataParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/multi/MultiDataParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -68,65 +90,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactoriesStorage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactoriesStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/storage/FactoriesStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tourListForEgypt.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/action/tourListForEgypt.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tourListForMealTriple.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/action/tourListForMealTriple.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="87" selection-start-line="4" selection-start-column="87" selection-end-line="4" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tourList.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/action/tourList.txt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TourPriceDurationComparatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/comparator/complex/TourPriceDurationComparatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#910#916#0" expanded="true" />
-                <element signature="e#1525#1531#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortedByPriceDurationTourList.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test/comparator/sortedByPriceDurationTourList.txt">
+      <file leaf-file-name="FactoriesStorageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/storage/FactoriesStorageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="485">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CruiseTourFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,14 +188,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/factory/recovery/treatment/TreatmentTourFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/AbstractMultiParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/multi/MultiDataParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/storage/FactoriesStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/base/Meal.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/recreationMulti.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/action/TourSearcher.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/comparator/sortedByCountryTourList.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/comparator/price/TourPriceComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/comparator/complex/TourPriceDurationComparatorTest.java" />
@@ -194,6 +204,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/test/action/tourListForMealTriple.txt" />
         <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/action/TourSearcherTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test/action/tourListForEgypt.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/storage/FactoriesStorageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test/factory/wrong/cruiseNotEnoughParameters.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/test/factory/wrong/multiDataWithWrongSeparator.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -262,6 +278,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gramazski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,6 +592,44 @@
               <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrong" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="right" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -630,6 +722,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gramazski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gramazski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="multi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -978,6 +1150,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gramazski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="key" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecondProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-Tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gramazski" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tourism" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1461,33 +1717,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gramazski.tourism.creator.storage" />
       <recent name="com.gramazski.tourism.action" />
       <recent name="com.gramazski.tourism.comparator.complex" />
       <recent name="com.gramazski.tourism.comparator.price" />
       <recent name="com.gramazski.tourism.creator.factory.recovery.recreation" />
-      <recent name="com.gramazski.tourism.creator.factory.cruise" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gs\Documents\GitHub\2-Tourism\src\main\resources\test\factory\right" />
       <recent name="C:\Users\gs\Documents\GitHub\2-Tourism\src\main\resources\test\factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TourSearcherTest">
-    <configuration default="false" name="TourPriceDurationComparatorTest.sortTourListUsingComparatorByPriceDuration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RecreationTourFactoryTest">
+    <configuration default="false" name="CruiseTourFactoryTest.getTourWithWrongDataInFileNotEnoughParametersReturnException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gramazski.tourism.comparator.complex.*" />
+          <option name="PATTERN" value="com.gramazski.tourism.creator.factory.entertainment.cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SecondProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gramazski.tourism.comparator.complex" />
-      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.comparator.complex.TourPriceDurationComparatorTest" />
-      <option name="METHOD_NAME" value="sortTourListUsingComparatorByPriceDuration" />
+      <option name="PACKAGE_NAME" value="com.gramazski.tourism.creator.factory.entertainment.cruise" />
+      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.creator.factory.entertainment.cruise.CruiseTourFactoryTest" />
+      <option name="METHOD_NAME" value="getTourWithWrongDataInFileNotEnoughParametersReturnException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1501,19 +1758,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TourSearcherTest.findTourByCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CruiseTourFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gramazski.tourism.action.*" />
+          <option name="PATTERN" value="com.gramazski.tourism.creator.factory.entertainment.cruise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SecondProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gramazski.tourism.action" />
-      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.action.TourSearcherTest" />
-      <option name="METHOD_NAME" value="findTourByCountry" />
+      <option name="PACKAGE_NAME" value="com.gramazski.tourism.creator.factory.entertainment.cruise" />
+      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.creator.factory.entertainment.cruise.CruiseTourFactoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gramazski.tourism.creator.factory.recovery.recreation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SecondProject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation" />
+      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation.RecreationTourFactoryTest" />
+      <option name="METHOD_NAME" value="getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1527,19 +1810,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TourSearcherTest.findTourByDurationWithinLimits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gramazski.tourism.action.*" />
+          <option name="PATTERN" value="com.gramazski.tourism.creator.factory.recovery.recreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SecondProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gramazski.tourism.action" />
-      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.action.TourSearcherTest" />
-      <option name="METHOD_NAME" value="findTourByDurationWithinLimits" />
+      <option name="PACKAGE_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation" />
+      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation.RecreationTourFactoryTest" />
+      <option name="METHOD_NAME" value="getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1553,44 +1836,18 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TourSearcherTest.findTourByMealTriple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RecreationTourFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.gramazski.tourism.action.*" />
+          <option name="PATTERN" value="com.gramazski.tourism.creator.factory.recovery.recreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="SecondProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gramazski.tourism.action" />
-      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.action.TourSearcherTest" />
-      <option name="METHOD_NAME" value="findTourByMealTriple" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TourSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.gramazski.tourism.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SecondProject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.gramazski.tourism.action" />
-      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.action.TourSearcherTest" />
+      <option name="PACKAGE_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation" />
+      <option name="MAIN_CLASS_NAME" value="com.gramazski.tourism.creator.factory.recovery.recreation.RecreationTourFactoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -2020,19 +2277,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TourPriceDurationComparatorTest.sortTourListUsingComparatorByPriceDuration" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByCountry" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByDurationWithinLimits" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByMealTriple" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TourSearcherTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CruiseTourFactoryTest.getTourWithWrongDataInFileNotEnoughParametersReturnException" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CruiseTourFactoryTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TourSearcherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByMealTriple" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByDurationWithinLimits" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TourSearcherTest.findTourByCountry" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TourPriceDurationComparatorTest.sortTourListUsingComparatorByPriceDuration" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CruiseTourFactoryTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CruiseTourFactoryTest.getTourWithWrongDataInFileNotEnoughParametersReturnException" />
       </list>
     </recent_temporary>
   </component>
@@ -2048,7 +2305,7 @@
       <updated>1482066118993</updated>
       <workItem from="1482066125251" duration="6368000" />
       <workItem from="1482073555325" duration="872000" />
-      <workItem from="1482157485614" duration="4594000" />
+      <workItem from="1482157485614" duration="7050000" />
     </task>
     <task id="LOCAL-00001" summary="Factory composite on 3 layers in accordance with entity layers. Test for cruise factory added. Tour comparators for price, duration, country, price-&gt;duration and price-&gt;duration-&gt;country added.">
       <created>1482069977601</created>
@@ -2078,43 +2335,50 @@
       <option name="project" value="LOCAL" />
       <updated>1482074154678</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Comparator tests added. Searcher tests added.">
+      <created>1482162178829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1482162178829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TourPriceDurationComparatorTest_sortTourListUsingComparatorByPriceDuration - 2016.12.19 at 18h 23m 16s.xml">
-      <configuration name="TourPriceDurationComparatorTest.sortTourListUsingComparatorByPriceDuration" configurationId="JUnit" />
+    <history-entry file="CruiseTourFactoryTest - 2016.12.19 at 19h 10m 05s.xml">
+      <configuration name="CruiseTourFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest - 2016.12.19 at 18h 40m 14s.xml">
-      <configuration name="TourSearcherTest" configurationId="JUnit" />
+    <history-entry file="CruiseTourFactoryTest_getTourWithWrongDataInFileNotEnoughParametersReturnException - 2016.12.19 at 19h 10m 01s.xml">
+      <configuration name="CruiseTourFactoryTest.getTourWithWrongDataInFileNotEnoughParametersReturnException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest - 2016.12.19 at 18h 41m 32s.xml">
-      <configuration name="TourSearcherTest" configurationId="JUnit" />
+    <history-entry file="FactoriesStorageTest_addFactoryWhenEntityNameIsNotPresentYetReturnTrue - 2016.12.19 at 18h 55m 08s.xml">
+      <configuration name="FactoriesStorageTest.addFactoryWhenEntityNameIsNotPresentYetReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByCountry - 2016.12.19 at 18h 29m 44s.xml">
-      <configuration name="TourSearcherTest.findTourByCountry" configurationId="JUnit" />
+    <history-entry file="FactoriesStorageTest_addFactoryWhenEntityNameIsNotPresentYetReturnTrue - 2016.12.19 at 18h 55m 48s.xml">
+      <configuration name="FactoriesStorageTest.addFactoryWhenEntityNameIsNotPresentYetReturnTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByCountry - 2016.12.19 at 18h 30m 21s.xml">
-      <configuration name="TourSearcherTest.findTourByCountry" configurationId="JUnit" />
+    <history-entry file="FactoriesStorageTest_addFactoryWhenEntityNameIsPresentYetReturnFalse - 2016.12.19 at 18h 53m 26s.xml">
+      <configuration name="FactoriesStorageTest.addFactoryWhenEntityNameIsPresentYetReturnFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByDurationWithinLimits - 2016.12.19 at 18h 34m 25s.xml">
-      <configuration name="TourSearcherTest.findTourByDurationWithinLimits" configurationId="JUnit" />
+    <history-entry file="FactoriesStorageTest_getFactoryWhenEntityNameIsWrongReturnIllegalArgumentException - 2016.12.19 at 18h 49m 29s.xml">
+      <configuration name="FactoriesStorageTest.getFactoryWhenEntityNameIsWrongReturnIllegalArgumentException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByDurationWithinLimits - 2016.12.19 at 18h 35m 53s.xml">
-      <configuration name="TourSearcherTest.findTourByDurationWithinLimits" configurationId="JUnit" />
+    <history-entry file="RecreationTourFactoryTest - 2016.12.19 at 19h 22m 48s.xml">
+      <configuration name="RecreationTourFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByDurationWithinLimits - 2016.12.19 at 18h 37m 21s.xml">
-      <configuration name="TourSearcherTest.findTourByDurationWithinLimits" configurationId="JUnit" />
+    <history-entry file="RecreationTourFactoryTest_getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException - 2016.12.19 at 19h 22m 43s.xml">
+      <configuration name="RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnDataReaderException" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByDurationWithinLimits - 2016.12.19 at 18h 37m 39s.xml">
-      <configuration name="TourSearcherTest.findTourByDurationWithinLimits" configurationId="JUnit" />
+    <history-entry file="RecreationTourFactoryTest_getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree - 2016.12.19 at 19h 19m 03s.xml">
+      <configuration name="RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TourSearcherTest_findTourByMealTriple - 2016.12.19 at 18h 40m 08s.xml">
-      <configuration name="TourSearcherTest.findTourByMealTriple" configurationId="JUnit" />
+    <history-entry file="RecreationTourFactoryTest_getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree - 2016.12.19 at 19h 19m 35s.xml">
+      <configuration name="RecreationTourFactoryTest.getTourWithWrongMultiDataIncorrectToursDelimiterReturnLessObjectCountTwoInsteadThree" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11834000" />
+    <option name="totallyTimeSpent" value="14290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
@@ -2125,10 +2389,10 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2181,11 +2445,12 @@
     <MESSAGE value="All factories added." />
     <MESSAGE value="Factory test added." />
     <MESSAGE value="Factory storage added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory storage added." />
+    <MESSAGE value="Comparator tests added. Searcher tests added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparator tests added. Searcher tests added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2194,64 +2459,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/AbstractMultiParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="95" selection-start-line="11" selection-start-column="95" selection-end-line="11" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/data/DataParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="19" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/multi/MultiDataParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/entity/recovery/recreation/RecreationTour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/recovery/recreation/RestPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/attribute/recovery/recreation/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -2300,26 +2507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/recreationMulti.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/entity/entertainment/cruise/CruiseTour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/cruise.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -2383,24 +2574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="110" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="30" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/factory/entertainment/shopping/ShoppingTourFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -2414,7 +2587,7 @@
         <state relative-caret-position="224">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2455,14 +2628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2620,11 +2785,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/key/EntityName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/creator/storage/FactoriesStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/storage/FactoriesStorageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/right/cruise.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/wrong/cruiseNotEnoughParameters.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/entertainment/cruise/CruiseTourFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/right/recreationMulti.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test/factory/wrong/multiDataWithWrongSeparator.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="58" selection-start-line="0" selection-start-column="58" selection-end-line="0" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gramazski/tourism/parser/multi/MultiDataParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gramazski/tourism/creator/factory/recovery/recreation/RecreationTourFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
+          <folding>
+            <element signature="e#1052#1068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
