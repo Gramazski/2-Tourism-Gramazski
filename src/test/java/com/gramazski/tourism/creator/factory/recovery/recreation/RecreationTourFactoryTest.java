@@ -23,7 +23,7 @@ public class RecreationTourFactoryTest {
         MultiDataParser dataParser = new MultiDataParser();
         ArrayList<RecreationTour> recreationTours = new ArrayList<RecreationTour>();
         AbstractTourFactory tourFactory;
-        ArrayList<ParsingDataStruct> parsingMultiData = dataParser.parse(textFileReader.read("src/main/resources/test/recreationMulti.txt"));
+        ArrayList<ParsingDataStruct> parsingMultiData = dataParser.parse(textFileReader.read("src/main/resources/test/factory/recreationMulti.txt"));
 
         for (ParsingDataStruct parsingData : parsingMultiData) {
             tourFactory = FactoriesStorage.getInstance().getFactory(EntityName.valueOf(parsingData.getEntityName()));

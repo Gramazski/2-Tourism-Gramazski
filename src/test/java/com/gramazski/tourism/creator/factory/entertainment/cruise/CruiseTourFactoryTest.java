@@ -16,7 +16,7 @@ public class CruiseTourFactoryTest {
     public void getTourWithRightDataInFileReturnTrue() throws Exception {
         TextFileReader textFileReader = new TextFileReader();
         DataParser dataParser = new DataParser();
-        ParsingDataStruct parsingData = dataParser.parse(textFileReader.read("src/main/resources/test/cruise.txt"));
+        ParsingDataStruct parsingData = dataParser.parse(textFileReader.read("src/main/resources/test/factory/cruise.txt"));
         CruiseTourFactory cruiseTourFactory = new CruiseTourFactory();
 
         Tour cruiseTour = cruiseTourFactory.getTour(parsingData.getParameters());
